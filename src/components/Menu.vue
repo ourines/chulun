@@ -18,7 +18,6 @@
         router
       >
         <el-menu-item index="/">产品中心</el-menu-item>
-        <el-menu-item index="/about">关于公司</el-menu-item>
       </el-menu>
     </el-col>
   </el-row>
