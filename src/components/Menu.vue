@@ -2,11 +2,11 @@
   <el-row>
     <el-col
       class="title"
-      :span="4"
+      :xs="12" :md="4"
     >
       <h3 class="title">昆明楚轮商贸有限公司</h3>
     </el-col>
-    <el-col :span="20">
+    <el-col :xs="12" :md="20">
       <el-menu
         :default-active="activeIndex2"
         class="el-menu-demo"

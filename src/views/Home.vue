@@ -1,11 +1,10 @@
 <template>
   <div class="home">
     <el-row :gutter="10">
-      <el-col :span="12">
+      <el-col :sm="12" md="12">
         <el-card>
           <el-carousel
             trigger="click"
-            height="400px"
           >
             <el-carousel-item>
               <img
@@ -29,7 +28,7 @@
         </el-card>
       </el-col>
 
-      <el-col :span="12">
+      <el-col :sm="12">
         <el-card class="card">
           <el-row>
             <h3>更多信息请使用微信扫描下方二维码</h3>
